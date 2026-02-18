@@ -1,7 +1,6 @@
 let selectedNoteId = null;  // Переменная для хранения ID выбранной заметки
 let activeNoteElement = null;  // Переменная для хранения активного элемента
 window.onresize = function () {
-    window.resizeTo(935, 705);
     }
     // Функция для добавления заметки
     function addNote() {
